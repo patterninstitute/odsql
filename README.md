@@ -1,0 +1,32 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# odsql
+
+<!-- badges: start -->
+
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![R-CMD-check](https://github.com/patterninstitute/odsql/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/patterninstitute/odsql/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
+`{odsql}` is a client for querying Opendatasoft APIs using Opendatasoft
+Query Language (ODSQL).
+
+The development of this package is still in early concept phase.
+
+## Installation
+
+You can install the development version of `{odsql}` like so:
+
+``` r
+# install.packages("pak")
+pak::pak("patterninstitute/odsql")
+```
+
+## Code of Conduct
+
+Please note that the odsql project is released with a [Contributor Code
+of
+Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.

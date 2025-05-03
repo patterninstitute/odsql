@@ -1,0 +1,22 @@
+Package: odsql
+Title: A Client for Querying Opendatasoft v2.1 APIs Using ODSQL
+Version: 0.0.1
+Authors@R: c(
+    person("Ramiro", "Magno", , "rmagno@pattern.institute", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-5226-3441")),
+    person("Lucas", "Bicalho", , , role = "aut"),       
+    person("Pattern Institute", role = c("cph", "fnd"))
+  )
+Description: Provides a tidy and composable interface to interact with
+    Opendatasoft datasets via the Explore v2 API, using the Opendatasoft Query
+    Language (ODSQL). Built on top of 'httr2', this package supports
+    authentication, endpoint discovery, automatic pagination, spatial and
+    faceted filtering, and conversion of responses to tibbles. Designed to
+    facilitate reproducible workflows and integration with the tidyverse.
+License: Apache License (>= 2)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    httr2
+Config/Needs/website: patterninstitute/chic
